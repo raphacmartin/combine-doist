@@ -8,13 +8,38 @@
 import SwiftUI
 
 struct TodoListView: View {
+    @ObservedObject var taskViewModel: SwiftUITaskListModel
+    
+    @State private var showAddTaskView: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            Text("Tasks")
+                .font(.largeTitle)
+                .padding()
+            
+            List {
+                ForEach(taskViewModel.tasks, id: \.self) { task in
+                    Text(task)
+                }
+            }
+            
+            Button {
+                self.showAddTaskView = true
+            } label: {
+                Text("Add New")
+            }
+            .padding()
+            .frame(maxWidth: .infinity, alignment: .center)
+        }
+        .sheet(isPresented: $showAddTaskView) {
+            AddTaskView(taskViewModel: self.taskViewModel)
+        }
     }
 }
 
 struct TodoListView_Previews: PreviewProvider {
     static var previews: some View {
-        TodoListView()
+        TodoListView(taskViewModel: SwiftUITaskListModel())
     }
 }

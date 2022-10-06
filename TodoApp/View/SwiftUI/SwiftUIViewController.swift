@@ -9,6 +9,6 @@ import SwiftUI
 
 class SwiftUIViewController: UIHostingController<TodoListView> {
     @MainActor @objc required dynamic init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder, rootView: TodoListView())
+        super.init(coder: aDecoder, rootView: TodoListView(taskViewModel: SwiftUITaskListModel()))
     }
 }

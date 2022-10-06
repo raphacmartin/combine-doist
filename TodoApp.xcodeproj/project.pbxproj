@@ -18,6 +18,8 @@
 		1781ED5C25CC19110037F3B9 /* Publisher+uicontrol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1781ED5B25CC19110037F3B9 /* Publisher+uicontrol.swift */; };
 		FC051BA928EDAFF300AFEF83 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC051BA828EDAFF300AFEF83 /* TodoListView.swift */; };
 		FC5F66A828EDB4B10058180B /* SwiftUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5F66A728EDB4B10058180B /* SwiftUIViewController.swift */; };
+		FC828E5728EEFC3900CCFEC6 /* SwiftUITaskListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC828E5628EEFC3800CCFEC6 /* SwiftUITaskListModel.swift */; };
+		FC828E5928EEFF5200CCFEC6 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC828E5828EEFF5200CCFEC6 /* AddTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		1781ED5B25CC19110037F3B9 /* Publisher+uicontrol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Publisher+uicontrol.swift"; sourceTree = "<group>"; };
 		FC051BA828EDAFF300AFEF83 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 		FC5F66A728EDB4B10058180B /* SwiftUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewController.swift; sourceTree = "<group>"; };
+		FC828E5628EEFC3800CCFEC6 /* SwiftUITaskListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITaskListModel.swift; sourceTree = "<group>"; };
+		FC828E5828EEFF5200CCFEC6 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				1781ED5725CC17B40037F3B9 /* TaskListModel.swift */,
+				FC828E5628EEFC3800CCFEC6 /* SwiftUITaskListModel.swift */,
 			);
 			path = "view model";
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			children = (
 				FC051BA828EDAFF300AFEF83 /* TodoListView.swift */,
 				FC5F66A728EDB4B10058180B /* SwiftUIViewController.swift */,
+				FC828E5828EEFF5200CCFEC6 /* AddTaskView.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -201,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC5F66A828EDB4B10058180B /* SwiftUIViewController.swift in Sources */,
+				FC828E5928EEFF5200CCFEC6 /* AddTaskView.swift in Sources */,
 				1781ED5825CC17B40037F3B9 /* TaskListModel.swift in Sources */,
 				1781ED3C25CC11F50037F3B9 /* TodoListViewController.swift in Sources */,
 				1781ED5C25CC19110037F3B9 /* Publisher+uicontrol.swift in Sources */,
@@ -208,6 +215,7 @@
 				FC051BA928EDAFF300AFEF83 /* TodoListView.swift in Sources */,
 				1781ED3A25CC11F50037F3B9 /* SceneDelegate.swift in Sources */,
 				1781ED5325CC127D0037F3B9 /* AddNewViewController.swift in Sources */,
+				FC828E5728EEFC3900CCFEC6 /* SwiftUITaskListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
