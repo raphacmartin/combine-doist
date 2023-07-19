@@ -34,6 +34,9 @@
 		1781ED5225CC127D0037F3B9 /* AddNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewViewController.swift; sourceTree = "<group>"; };
 		1781ED5725CC17B40037F3B9 /* TaskListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListModel.swift; sourceTree = "<group>"; };
 		1781ED5B25CC19110037F3B9 /* Publisher+uicontrol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Publisher+uicontrol.swift"; sourceTree = "<group>"; };
+		BE7441E62A68118F00467FDB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BE7441E72A68129200467FDB /* starting_swiftui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starting_swiftui.png; sourceTree = "<group>"; };
+		BE7441E82A6812B600467FDB /* starting_uikit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starting_uikit.png; sourceTree = "<group>"; };
 		FC051BA828EDAFF300AFEF83 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 		FC5F66A728EDB4B10058180B /* SwiftUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewController.swift; sourceTree = "<group>"; };
 		FC828E5628EEFC3800CCFEC6 /* SwiftUITaskListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITaskListModel.swift; sourceTree = "<group>"; };
@@ -54,6 +57,9 @@
 		1781ED2B25CC11F50037F3B9 = {
 			isa = PBXGroup;
 			children = (
+				BE7441E72A68129200467FDB /* starting_swiftui.png */,
+				BE7441E82A6812B600467FDB /* starting_uikit.png */,
+				BE7441E62A68118F00467FDB /* README.md */,
 				1781ED3625CC11F50037F3B9 /* TodoApp */,
 				1781ED3525CC11F50037F3B9 /* Products */,
 			);
