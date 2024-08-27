@@ -1,5 +1,4 @@
-# Combine ToDo List app
-
+# Combine Doist
 This project is a study of the Combine framework, implementing the functionality of the app integrating Combine with both UIKit and SwiftUI frameworks, and showing its differences.
 
 ## Starting the app
